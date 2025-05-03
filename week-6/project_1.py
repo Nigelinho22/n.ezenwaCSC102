@@ -33,7 +33,7 @@ root = tk.Tk()
 root.title("Simi Services Delivery Cost")
 root.geometry("350x200")
 
-tk.Label(root, text="Enter Delivery Location (Ibeju-Lekki or Epe):").pack(pady=30)
+tk.Label(root, text="Enter Delivery Location (Ibeju-Lekki or Epe):").pack(pady=5)
 location_entry = tk.Entry(root, width=30)
 location_entry.pack()
 
